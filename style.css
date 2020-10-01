@@ -1,0 +1,199 @@
+/* change the background color */
+.navbar-custom {
+    background-color: #ffcce6;
+    -webkit-box-shadow: 0 5px 3px -3px #999;
+    -moz-box-shadow: 0 5px 3px -3px #999;
+    box-shadow: 0 5px 3px -3px #999;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #b82e8a;
+    padding-left: 20px;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #b82e8a;
+    padding-left: 20px;
+}
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link{
+	color: #b82e8a; 
+}
+
+.navbar-custom .nav-item.active:focus .nav-link,
+.navbar-custom .nav-item.active:hover .nav-link{
+  color: white;
+}
+.dropdown-menu{
+  background-color: #ffcce6;
+   -webkit-box-shadow: 0 4px 3px -3px #999;
+    -moz-box-shadow: 0 4px 3px -3px #999;
+    box-shadow: 0 4px 3px -3px #999;
+}
+
+.dropdown-item{
+  color: #b82e8a;
+}
+
+.dropdown-item:hover{
+  color: white;
+  background-color: #ff99cc;
+}
+
+#navbarDropdown:focus{
+  color: white;
+}
+
+.profPhoto {
+	width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+li{
+	color: #b82e8a;
+}
+
+
+.giantBody{
+  padding: 20px;
+	text-align: left;
+	font-size: 110%;
+	font-family: "Times New Roman", Times, serif;
+  color: black;
+  isolation: isolate;
+}
+
+hr {
+	border: 1.7px solid #ff99cc;
+	border-width: 55%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+footer{
+	background-color: #ffcce6;
+  text-align: center;
+  isolation: isolate;
+}
+
+.footer-copyright{
+  font-size: 40%; 
+}
+
+.fa {
+  	padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  	font-size: 40px;
+  	color: #b82e8a;
+  	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover,
+.fa:focus {
+  color: white;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #cc0066; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 18px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff80bf;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #cc0066;
+}
+
+/* Add a background color and some padding around the form */
+.contacts {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.contactForm{
+  font-size: 20px;
+  color: #b82e8a;
+  padding-bottom: 30px;
+}
+
+:root {
+  --jumbotron-padding-y: 4rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  background-image: url("Sakura.png");
+  background-color: black;
+  isolation: isolate;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  font-family: DejaVu Sans Mono, monospace;
+  color: #ff99cc;
+  float: center;
+  font-size: 56px;
+}
+
+.jumbotron .container {
+  max-width: 30rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.headers{
+  color: #ff66b3;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 42px;
+}
+
